@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.346151">
+<testcase classname="Adactin Hotel Booking Application" name="Verify whether the check-out date field accepts a later date than checkin date." time="18.611895">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at com.Adactin.steps.AdactinStepDefn.verify_whether_date_field_accepts_the_early_check_out_date_than_check_in_date(AdactinStepDefn.java:103)&#13;&#10;&#9;at ✽.Then Verify whether date field accepts the early check-out date than check-in date(src/test/java/com/Adactin/feature/Adactin.feature:24)&#13;&#10;"><![CDATA[Given User opens the Adactin application....................................passed
+When User enters the username in the login page.............................passed
+And User enters the password in the  login page.............................passed
+Then User clicks on the login button........................................passed
+When User selects the location in search hotel page.........................passed
+When User selects the hotel.................................................passed
+When User selects the room type.............................................passed
+When User selects the number of rooms.......................................passed
+When User selects the check-in date.........................................passed
+And User selects the check-out date less then check-in date.................passed
+And User selects the number of adults.......................................passed
+And User clicks on the search button........................................passed
+Then Verify whether date field accepts the early check-out date than check-in date.failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.Adactin.steps.AdactinStepDefn.verify_whether_date_field_accepts_the_early_check_out_date_than_check_in_date(AdactinStepDefn.java:103)
+	at ✽.Then Verify whether date field accepts the early check-out date than check-in date(src/test/java/com/Adactin/feature/Adactin.feature:24)
+]]></failure>
+</testcase>
+<testcase classname="Adactin Hotel Booking Application" name="To check if error is reported if check-out date field is in the past" time="4.734256">
+<system-out><![CDATA[Given User opens the Adactin application....................................passed
+When User enters the username in the login page.............................passed
+And User enters the password in the  login page.............................passed
+Then User clicks on the login button........................................passed
+When User selects the location in search hotel page.........................passed
+When User selects the hotel.................................................passed
+When User selects the room type.............................................passed
+When User selects the number of rooms.......................................passed
+When User enters the check-in date of the past..............................passed
+And User enters the check-out date of the past..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

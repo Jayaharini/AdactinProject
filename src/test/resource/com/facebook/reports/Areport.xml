@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.174711">
+<testcase classname="Adactin Hotel Booking Application" name="To verify whether locations in Select Hotel page are displayed according to the location selected in Search Hotel" time="11.174711">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.Adactin.steps.AdactinStepDefn.user_verifies_whether_the_lacation_in_select_hotel_page_is_same_as_in_search_hotel_page(AdactinStepDefn.java:135)&#13;&#10;&#9;at ✽.Then User verifies whether the location in select hotel page is same as in search hotel page(src/test/java/com/Adactin/feature/Adactin.feature:36)&#13;&#10;"><![CDATA[Given User opens the Adactin application....................................passed
+When User enters the username in the login page.............................passed
+And User enters the password in the  login page.............................passed
+Then User clicks on the login button........................................passed
+When User selects the location in search hotel page.........................passed
+When User selects the hotel.................................................passed
+When User selects the room type.............................................passed
+When User selects the number of rooms.......................................passed
+When User enters the correct check-in date..................................passed
+When User enters the correct check-out date.................................passed
+Then User verifies whether the location in select hotel page is same as in search hotel page.failed
+Then User verifies whether the dates in select hotel page is same as in search hotel page.skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.Adactin.steps.AdactinStepDefn.user_verifies_whether_the_lacation_in_select_hotel_page_is_same_as_in_search_hotel_page(AdactinStepDefn.java:135)
+	at ✽.Then User verifies whether the location in select hotel page is same as in search hotel page(src/test/java/com/Adactin/feature/Adactin.feature:36)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,3 @@
+com\Adactin\steps\Hooks.class
+com\Adactin\steps\AdactinStepDefn.class
+com\Adactin\runner\TestRunner.class

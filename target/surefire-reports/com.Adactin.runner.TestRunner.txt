@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.Adactin.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 43.267 s <<< FAILURE! - in com.Adactin.runner.TestRunner
+Scenario: Verify whether the check-out date field accepts a later date than checkin date..Then Verify whether date field accepts the early check-out date than check-in date  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.AssertionError
+
+Scenario: Verify whether the check-out date field accepts a later date than checkin date.  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.AssertionError
+
